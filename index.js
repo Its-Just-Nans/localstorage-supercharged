@@ -12,13 +12,11 @@ export const local = new Proxy(
             return Reflect.get(target, name, receiver);
         },
         set: function (target, name, value, receiver) {
-            if (!(name in target)) {
-                try {
-                    localStorage.setItem(name, JSON.stringify(value));
-                } catch (e) {
-                    // console.log(e);
-                    // console.log("error setting" + name);
-                }
+            try {
+                localStorage.setItem(name, JSON.stringify(value));
+            } catch (e) {
+                // console.log(e);
+                // console.log("error setting" + name);
             }
             return Reflect.set(target, name, value, receiver);
         },
