@@ -1,0 +1,26 @@
+{
+  "name": "localstorage-supercharged",
+  "version": "1.0.0",
+  "description": "A javascript object which under the hood save all his data in the localStorage",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Its-Just-Nans/localstorage-supercharged.git"
+  },
+  "keywords": [
+    "localstorage",
+    "js"
+  ],
+  "author": "n4n5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Its-Just-Nans/localstorage-supercharged/issues"
+  },
+  "homepage": "https://github.com/Its-Just-Nans/localstorage-supercharged#readme"
+}
